@@ -19,3 +19,49 @@
 2025-06-26 13:16:15,775 - data_prep - INFO - Total documents loaded: 59 from ./data/documents
 2025-06-26 13:16:15,783 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
 2025-06-26 13:16:16,004 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 15:19:08,861 - data_prep - INFO - Total documents loaded: 8 from ./data/documents
+2025-06-26 15:19:08,865 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 15:19:12,222 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 15:31:04,493 - data_prep - INFO - Total documents loaded: 8 from ./data/documents
+2025-06-26 15:31:04,498 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 15:31:05,368 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 15:31:24,636 - data_prep - INFO - Total documents loaded: 8 from ./data/documents
+2025-06-26 15:31:24,639 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 15:31:24,858 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 15:44:12,819 - data_prep - INFO - Total documents loaded: 8 from ./data/documents
+2025-06-26 15:44:12,824 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 15:44:13,060 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 15:44:55,591 - data_prep - INFO - Collection 'rag_collection' deleted from ChromaDB.
+2025-06-26 16:06:24,197 - data_prep - INFO - Total documents loaded: 8 from /tmp/tmpyeu1ymro
+2025-06-26 16:06:24,204 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 16:06:29,501 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 16:09:31,373 - data_prep - ERROR - Error deleting collection from ChromaDB: Collection dasdas does not exist.
+2025-06-26 16:09:45,952 - data_prep - INFO - Collection 'collection1' deleted from ChromaDB.
+2025-06-26 16:16:57,493 - data_prep - INFO - Total documents loaded: 8 from ./data/documents
+2025-06-26 16:16:57,496 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 16:16:59,705 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 16:20:49,923 - data_prep - INFO - Total documents loaded: 8 from ./data/documents
+2025-06-26 16:20:49,927 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 16:20:50,163 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 16:59:06,677 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 16:59:06,908 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 17:00:32,375 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 17:00:32,608 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 17:05:10,792 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 17:05:11,023 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 17:10:39,558 - data_prep - INFO - Total chunks created: 1 from 1 documents with chunk size 800 and overlap 100
+2025-06-26 17:10:39,934 - data_prep - INFO - Added 1 new documents to ChromaDB.
+2025-06-26 17:14:45,425 - data_prep - INFO - Collection 'collection1' deleted from ChromaDB.
+2025-06-26 17:14:52,182 - data_prep - INFO - Collection 'vidya' deleted from ChromaDB.
+2025-06-26 17:15:08,517 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 17:15:09,107 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 17:16:19,034 - data_prep - INFO - Collection 'collection1' deleted from ChromaDB.
+2025-06-26 17:22:31,079 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 17:22:31,922 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 17:24:19,274 - data_prep - INFO - Collection 'collection1' deleted from ChromaDB.
+2025-06-26 17:24:25,664 - data_prep - ERROR - Error deleting collection from ChromaDB: Collection collection1 does not exist.
+2025-06-26 17:29:37,254 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 17:29:38,092 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-26 17:31:10,085 - data_prep - INFO - Collection 'research' deleted from ChromaDB.
+2025-06-26 17:58:15,221 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-26 17:58:20,239 - data_prep - INFO - Added 56 new documents to ChromaDB.

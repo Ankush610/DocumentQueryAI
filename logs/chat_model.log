@@ -28,3 +28,81 @@
         The "freeze_support()" line can be omitted if the program
         is not going to be frozen to produce an executable.
 2025-06-26 14:03:40,056 - chat_model - ERROR - Error loading model: worker died
+2025-06-26 15:02:19,554 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:02:19,557 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:02:19,558 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:07:26,101 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:07:26,103 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:07:26,103 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:08:54,180 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:08:54,180 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:08:54,180 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:10:04,091 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:10:04,091 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:10:04,091 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:11:27,516 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:11:27,518 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:11:27,519 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:12:05,047 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:12:05,048 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:12:05,048 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:12:40,492 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:12:40,493 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:12:40,493 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:13:19,680 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:13:19,681 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:13:19,681 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:21:29,315 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:21:29,317 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:21:29,318 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:21:45,537 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:21:45,537 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:21:45,537 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:24:14,775 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:24:14,782 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:24:14,783 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:24:28,306 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:24:28,306 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:24:28,306 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:24:53,837 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:24:53,838 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:24:53,838 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:25:43,451 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:25:43,452 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:25:43,453 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:26:23,872 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:26:23,872 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:26:23,872 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 15:44:20,736 - chat_model - INFO - Model loaded successfully
+2025-06-26 15:44:20,738 - chat_model - INFO - Memory initialized successfully
+2025-06-26 15:44:20,738 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 16:06:59,494 - chat_model - INFO - Model loaded successfully
+2025-06-26 16:06:59,496 - chat_model - INFO - Memory initialized successfully
+2025-06-26 16:06:59,497 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 16:17:18,796 - chat_model - INFO - Model loaded successfully
+2025-06-26 16:17:18,799 - chat_model - INFO - Memory initialized successfully
+2025-06-26 16:17:18,799 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 16:20:58,636 - chat_model - INFO - Model loaded successfully
+2025-06-26 16:20:58,639 - chat_model - INFO - Memory initialized successfully
+2025-06-26 16:20:58,639 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 16:59:18,185 - chat_model - INFO - Model loaded successfully
+2025-06-26 16:59:18,188 - chat_model - INFO - Memory initialized successfully
+2025-06-26 16:59:18,189 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 17:05:19,074 - chat_model - INFO - Model loaded successfully
+2025-06-26 17:05:19,077 - chat_model - INFO - Memory initialized successfully
+2025-06-26 17:05:19,077 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 17:09:11,466 - chat_model - INFO - Model loaded successfully
+2025-06-26 17:09:11,468 - chat_model - INFO - Memory initialized successfully
+2025-06-26 17:09:11,469 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 17:15:30,207 - chat_model - INFO - Model loaded successfully
+2025-06-26 17:15:30,210 - chat_model - INFO - Memory initialized successfully
+2025-06-26 17:15:30,211 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 17:24:35,185 - chat_model - INFO - Model loaded successfully
+2025-06-26 17:24:35,188 - chat_model - INFO - Memory initialized successfully
+2025-06-26 17:24:35,189 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 17:29:53,528 - chat_model - INFO - Model loaded successfully
+2025-06-26 17:29:53,530 - chat_model - INFO - Memory initialized successfully
+2025-06-26 17:29:53,530 - chat_model - INFO - Conversational retrieval chain created successfully
+2025-06-26 17:59:08,976 - chat_model - INFO - Model loaded successfully
+2025-06-26 17:59:08,979 - chat_model - INFO - Memory initialized successfully
+2025-06-26 17:59:08,980 - chat_model - INFO - Conversational retrieval chain created successfully

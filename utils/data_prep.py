@@ -5,7 +5,8 @@ from langchain_community.document_loaders import PyMuPDFLoader, TextLoader, Docx
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from utils.logging import setup_logger
-
+from chromadb import PersistentClient
+import tempfile
 
 # Globals ==============
 logger = setup_logger("data_prep")
@@ -22,35 +23,34 @@ def get_doc_id(content):
 #functions ==============
 
 @validate_call
-def load_documents(doc_dir :str) -> list:
-    """
-    Load documents from a specified directory.
-    Supports PDF, TXT, and DOCX file formats.
-    """
-    try:
-        documents = []
+def load_documents_from_path_or_file(path_or_file):
+    if isinstance(path_or_file, str):  # it's a file path
+        suffix = os.path.splitext(path_or_file)[1]
+        file_source = path_or_file
+    else:  # it's an UploadedFile
+        suffix = os.path.splitext(path_or_file.name)[1]
+        tmp_file = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+        tmp_file.write(path_or_file.read())
+        tmp_file.flush()
+        file_source = tmp_file.name
 
-        for filename in os.listdir(doc_dir):
-            path = os.path.join(doc_dir, filename)
-            if filename.endswith(".pdf"):
-                loader = PyMuPDFLoader(path)
-            elif filename.endswith(".txt"):
-                loader = TextLoader(path)
-            elif filename.endswith(".docx"):
-                loader = Docx2txtLoader(path)
-            else:
-                continue  # skip unsupported file types
-            
-            docs = loader.load()
-            documents.extend(docs)
+    if suffix == ".pdf":
+        loader = PyMuPDFLoader(file_source)
+    elif suffix == ".txt":
+        loader = TextLoader(file_source)
+    elif suffix == ".docx":
+        loader = Docx2txtLoader(file_source)
+    else:
+        return []
 
-        logger.info(f"Total documents loaded: {len(documents)} from {doc_dir}")
+    docs = loader.load()
 
-        return documents
+    if not isinstance(path_or_file, str):
+        os.unlink(file_source)  # remove temp file
 
-    except Exception as e:
-        logger.error(f"Error loading documents: {e}")
-        raise e
+    return docs
+
+
     
 @validate_call
 def chunk_documents(documents: list,chunk_size: int = 800,chunk_overlap: int = 100) -> list:
@@ -108,6 +108,32 @@ def store_to_chromadb(chunks: list,collection_name: str, embedding_model)-> None
     except Exception as e:
         logger.error(f"Error storing documents to ChromaDB: {e}")
         raise e
+
+
+@validate_call
+def delete_chromadb_collection(collection_name: str) -> None:
+    """
+    Deletes a collection from ChromaDB
+    """
+    try:
+        chroma_dir = "./data/chroma_db"
+
+        client = PersistentClient(path=chroma_dir)
+        client.delete_collection(name=collection_name)
+
+        logger.info(f"Collection '{collection_name}' deleted from ChromaDB.")
+    except Exception as e:
+        logger.error(f"Error deleting collection from ChromaDB: {e}")
+        raise e
+
+
+def load_documents_from_files(uploaded_files):
+    docs = []
+    for uploaded_file in uploaded_files:
+        content = uploaded_file.read().decode("utf-8")  # Assuming text files
+        docs.append({"content": content, "name": uploaded_file.name})
+    return docs
+
 
 if __name__ == "__main__":
     pass

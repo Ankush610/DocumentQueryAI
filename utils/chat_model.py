@@ -12,26 +12,25 @@ def load_model():
     Loads the Mistral-7B-Instruct-v0.3 model using VLLM.
     """
     
-    # Not suitable for using with streamlit 
+    # Not suitable for using with streamlit its without vllm server
 
-    # try:
-    #     llm = VLLM(
-    #         model="mistralai/Mistral-7B-Instruct-v0.3",
-    #         tensor_parallel_size=2,
-    #         trust_remote_code=True,  # mandatory for hf models
-    #     )
-    #     logger.info("Model loaded successfully")
-    #     return llm
-    # except Exception as e:
-    #     logger.error(f"Error loading model: {e}")
-    #     raise e
+        # try:
+        #     llm = VLLM(
+        #         model="mistralai/Mistral-7B-Instruct-v0.3",
+        #         tensor_parallel_size=2,
+        #         trust_remote_code=True,  # mandatory for hf models
+        #     )
+        #     logger.info("Model loaded successfully")
+        #     return llm
+        # except Exception as e:
+        #     logger.error(f"Error loading model: {e}")
+        #     raise e
 
     try:
         llm = VLLMOpenAI(
             openai_api_key="EMPTY",
             openai_api_base="http://localhost:8000/v1",
             model_name="mistralai/Mistral-7B-Instruct-v0.3",
-            model_kwargs={"stop": ["."]},
         )
         logger.info("Model loaded successfully")
         return llm
@@ -60,7 +59,7 @@ def get_conversational_chain(llm,vectorstore):
     try:
         conversational_qa = ConversationalRetrievalChain.from_llm(
             llm=llm,
-            retriever=vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 1}),
+            retriever=vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 10}),
             memory=memory,
             chain_type="stuff" 
         )
