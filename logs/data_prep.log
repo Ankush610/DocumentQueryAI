@@ -1,0 +1,21 @@
+2025-06-26 12:10:50,980 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 12:33:38,007 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 12:33:38,008 - data_prep - ERROR - Error chunking documents: 'int' object is not subscriptable
+2025-06-26 12:38:49,515 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 12:38:49,523 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
+2025-06-26 12:39:19,649 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 12:39:19,657 - data_prep - INFO - Total chunks created: 177 from 59 documents with chunk size 1000 and overlap 200
+2025-06-26 12:43:06,918 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 12:43:06,926 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
+2025-06-26 12:48:02,060 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 12:48:02,068 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
+2025-06-26 12:48:21,476 - data_prep - INFO - Total documents loaded: 59 from ./documents/resume
+2025-06-26 13:08:28,784 - data_prep - INFO - Total documents loaded: 59 from ./data/documents
+2025-06-26 13:08:28,792 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
+2025-06-26 13:09:00,353 - data_prep - INFO - Added 196 new documents to ChromaDB.
+2025-06-26 13:09:46,324 - data_prep - INFO - Total documents loaded: 59 from ./data/documents
+2025-06-26 13:09:46,333 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
+2025-06-26 13:09:46,808 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.
+2025-06-26 13:16:15,775 - data_prep - INFO - Total documents loaded: 59 from ./data/documents
+2025-06-26 13:16:15,783 - data_prep - INFO - Total chunks created: 196 from 59 documents with chunk size 800 and overlap 100
+2025-06-26 13:16:16,004 - data_prep - INFO - All documents already exist in ChromaDB. No new documents added.

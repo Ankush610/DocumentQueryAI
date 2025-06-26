@@ -1,0 +1,30 @@
+2025-06-26 14:02:01,863 - chat_model - ERROR - Error loading model: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2025-06-26 14:02:03,510 - chat_model - ERROR - Error loading model: worker died
+2025-06-26 14:03:39,031 - chat_model - ERROR - Error loading model: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2025-06-26 14:03:40,056 - chat_model - ERROR - Error loading model: worker died
