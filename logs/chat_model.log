@@ -106,6 +106,3 @@
 2025-06-26 17:59:08,976 - chat_model - INFO - Model loaded successfully
 2025-06-26 17:59:08,979 - chat_model - INFO - Memory initialized successfully
 2025-06-26 17:59:08,980 - chat_model - INFO - Conversational retrieval chain created successfully
-2025-06-26 18:29:18,914 - chat_model - INFO - Model loaded successfully
-2025-06-26 18:29:18,917 - chat_model - INFO - Memory initialized successfully
-2025-06-26 18:29:18,917 - chat_model - INFO - Conversational retrieval chain created successfully

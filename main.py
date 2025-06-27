@@ -148,7 +148,7 @@ if 'collection_metadata' not in st.session_state:
     st.session_state.collection_metadata = load_metadata_from_csv()
 
 if st.session_state.page == 'main':
-    st.markdown("<h1 style='text-align: center;'>📚 RetrieverAI </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> 📚 RetrieverAI </h1>", unsafe_allow_html=True)
     st.markdown("---")
 
     st.markdown("### 📂 Upload Documents")
