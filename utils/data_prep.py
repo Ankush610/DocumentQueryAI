@@ -18,8 +18,6 @@ def get_doc_id(content):
     return hashlib.md5(content.encode()).hexdigest()
 
 
-
-
 #functions ==============
 
 @validate_call

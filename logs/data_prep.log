@@ -65,3 +65,16 @@
 2025-06-26 17:31:10,085 - data_prep - INFO - Collection 'research' deleted from ChromaDB.
 2025-06-26 17:58:15,221 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
 2025-06-26 17:58:20,239 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-27 10:44:26,260 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-27 10:44:27,716 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-27 12:39:21,566 - data_prep - INFO - Total chunks created: 5 from 1 documents with chunk size 800 and overlap 100
+2025-06-27 12:39:22,075 - data_prep - INFO - Added 5 new documents to ChromaDB.
+2025-06-27 16:17:14,892 - data_prep - INFO - Total chunks created: 5 from 1 documents with chunk size 800 and overlap 100
+2025-06-27 16:17:46,083 - data_prep - INFO - Total chunks created: 5 from 1 documents with chunk size 800 and overlap 100
+2025-06-27 16:17:51,708 - data_prep - INFO - Added 5 new documents to ChromaDB.
+2025-06-27 16:18:41,798 - data_prep - INFO - Collection 'collection1' deleted from ChromaDB.
+2025-06-27 16:20:44,605 - data_prep - INFO - Total chunks created: 8 from 2 documents with chunk size 800 and overlap 100
+2025-06-27 16:20:44,718 - data_prep - INFO - Added 8 new documents to ChromaDB.
+2025-06-27 16:50:06,425 - data_prep - INFO - Total chunks created: 56 from 8 documents with chunk size 800 and overlap 100
+2025-06-27 16:50:07,290 - data_prep - INFO - Added 56 new documents to ChromaDB.
+2025-06-27 16:50:20,927 - data_prep - INFO - Collection 'hpc-slurm-doc' deleted from ChromaDB.
