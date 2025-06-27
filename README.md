@@ -81,7 +81,7 @@ python -m vllm.entrypoints.openai.api_server \
 ### 2️⃣ Run the Streamlit App
 
 ```bash
-streamlit run chatapp.py
+streamlit run main.py
 ```
 
 ---
