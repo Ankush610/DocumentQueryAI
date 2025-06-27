@@ -10,11 +10,11 @@ RetrieverAI is a modular, RAG-based document question-answering app built with L
 - ✅ **Store documents as vector collections** (supports `.txt`, `.pdf`, `.docx`)
 - ✅ **Chat with any collection** using an LLM with memory of the last 3 questions
 - ✅ **Collection management interface**: add, delete, and list collections
-- ✅ **Metadata dashboard**: track number of documents and chunks per collection
+- ✅ **Metadata dashboard**: track collections and documents they are associated with 
 - ✅ **Modular design**: plug in any LangChain-compatible LLM
 - ✅ **GPU-accelerated inference** via `vLLM` backend
 - ✅ **Streamlit UI** for clean, centralized control
-
+- ✅ **Maintain History** of conversation for each running session so user can switch between them easily 
 ---
 
 ## 🧠 Tools & Libraries Used
